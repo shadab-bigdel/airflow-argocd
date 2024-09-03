@@ -5,7 +5,7 @@ airflow:
   - "pandasdmx==1.10.0" # https://pypi.org/project/pandaSDMX/ 1.10.0
   - "pandas==2.2.2"
   - "openpyxl==3.1.2"
-  - "apache-airflow-providers-amazon==8.28.0"  #apache-airflow-providers-amazon==8.7.1
+  - "apache-airflow-providers-amazon==8.24.0"  #apache-airflow-providers-amazon==8.7.1
 dags:
   persistence:
     # Annotations for dags PVC
