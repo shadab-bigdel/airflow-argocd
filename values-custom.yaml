@@ -1,10 +1,11 @@
 executor: "KubernetesExecutor"
 airflow:
  extraPipPackages:
-  - "pymongo==4.6.1" # https://pymongo.readthedocs.io/en/stable/changelog.html 4.8.0
-  - "pandasdmx==1.10.0" # https://pypi.org/project/pandaSDMX/ 1.10.0
-  - "pandas==2.2.2"
-  - "openpyxl==3.1.2"
+  - boto
+   #- "pymongo==4.6.1" # https://pymongo.readthedocs.io/en/stable/changelog.html 4.8.0
+   #- "pandasdmx==1.10.0" # https://pypi.org/project/pandaSDMX/ 1.10.0
+   #- "pandas==2.2.2"
+   #- "openpyxl==3.1.2"
   #- "apache-airflow-providers-amazon==8.2.0"  #apache-airflow-providers-amazon==8.7.1
 dags:
   persistence:
