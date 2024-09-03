@@ -1,7 +1,7 @@
 executor: "KubernetesExecutor"
-airflow:
- extraPipPackages:
-  - boto
+ #airflow:
+  #extraPipPackages:
+   #- boto3
    #- "pymongo==4.6.1" # https://pymongo.readthedocs.io/en/stable/changelog.html 4.8.0
    #- "pandasdmx==1.10.0" # https://pypi.org/project/pandaSDMX/ 1.10.0
    #- "pandas==2.2.2"
