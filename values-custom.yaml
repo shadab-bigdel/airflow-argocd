@@ -1,4 +1,7 @@
-executor: "KubernetesExecutor" 
+executor: "KubernetesExecutor"
+config:
+  core:
+    fernet_key: WlZwRGQwRlJSVWN4ZEVwc1Z6VXhSV2cxVUVwa1dYbDRORWhLY2taTU1taz0=
 dags:  
   gitSync:
     enabled: true
